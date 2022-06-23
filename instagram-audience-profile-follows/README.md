@@ -73,6 +73,33 @@ You can manage the results in any language (Python, PHP, Node.js/NPM). See the [
   "has_highlight_reels": false,
   "latest_reel_media": 0,
   "is_favorite": false
+},
+{
+  "type": "followers",
+  "instagramUrl": "https://www.instagram.com/apifytech/",
+  "profileUrl": "https://www.instagram.com/alexeyudovydchenko",
+  "profilePic": "https://scontent-hkg4-2.cdninstagram.com/v/t51.2885-19/21879069_1932425943664048_6301929264866394112_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-hkg4-2.cdninstagram.com&_nc_cat=104&_nc_ohc=uhxi5nJ0FlUAX8avRcf&edm=APQMUHMBAAAA&ccb=7-5&oh=00_AT9zDV070xLcpt-4Wxbc_a9Xws_Ol2KkL-iBgLhteljaHQ&oe=62BA10FF&_nc_sid=e5d0a6",
+  "pk": 6083345372,
+  "username": "alexeyudovydchenko",
+  "full_name": "Alexey Udovydchenko",
+  "is_private": false,
+  "profile_pic_id": "1609845100345983280_6083345372",
+  "is_verified": false,
+  "follow_friction_type": 0,
+  "growth_friction_info": {
+    "has_active_interventions": false,
+    "interventions": {}
+  },
+  "has_anonymous_profile_picture": false,
+  "reel_auto_archive": "unset",
+  "allowed_commenter_type": "any",
+  "has_highlight_reels": false,
+  "interop_messaging_user_fbid": 115831779801868,
+  "account_badges": [],
+  "fbid_v2": "17841406041170418",
+  "liked_clips_count": 1,
+  "all_media_count": 1,
+  "latest_reel_media": 0
 }
 ```
 
