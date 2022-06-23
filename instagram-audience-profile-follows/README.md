@@ -1,11 +1,10 @@
 ## Features
-Our free Instagram Likes and Comments Post Scraper allows you to scrape comments and likes from one or more Instagram post URLs, even if [likes are HIDDEN by author](https://help.instagram.com/113355287252104/).
-Please note that replies and comments handled in a same way, no nesting for replies to comments, all results saved as plain table data to keep it CSV friendly.
+Our free Instagram Follower & Following Profile Scraper allows you to scrape follower&following from one or more Instagram profile URLs.
 
 **Bulk (up to 10x thousands) results, you should be able to get around 7.000 - 10.000 items per hour**
 
-## Why scrape Instagram comments or likes?
-Scraping comments on Instagram posts can give you quick insights on how an audience is reacting to marketing campaigns, enable you to spot misinformation or abuse, track audience engagement, or help you monitor how competing content is being received.
+## Why scrape Instagram follower or following?
+Scraping follows on Instagram profiles can give you quick insights on how an audience is reacting to marketing campaigns, enable you to spot misinformation or abuse, track audience engagement, or help you monitor how competing content is being received.
 
 If you want more ideas, check out our [industries pages](https://apify.com/industries) for ways web scraping is already being used in a wide range of companies.
 
@@ -41,7 +40,7 @@ Datacenter proxies recommended.
 You can also use proxies from other providers in the custom proxies fields (`proxyUrls` in the JSON settings).
 
 ## Input parameters
-The input of this scraper should be JSON containing the list of posts that should be scraped. Required fields are:
+The input of this scraper should be JSON containing the list of profiles that should be scraped. Required fields are:
 
 | Field | Type | Description |
 | ----- | ---- | ----------- |
@@ -55,26 +54,25 @@ You can manage the results in any language (Python, PHP, Node.js/NPM). See the [
 
 ```jsonc
 {
-  "type": "likes",
-  "instagramUrl": "https://www.instagram.com/p/Cea0CCbPdc7/",
-  "profileUrl": "https://www.instagram.com/hermes.ti.amo",
-  "profilePic": "https://scontent-lga3-2.cdninstagram.com/v/t51.2885-19/122366978_380422526415759_5700090543334163513_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_cat=103&_nc_ohc=teXWO_qcU9wAX9v3Ss3&edm=AAo1ks0BAAAA&ccb=7-5&oh=00_AT9mC0MkYIUus8pbOR0MV9QJv6lHRzBJIcNzYnLydWyDMA&oe=62B8CD27&_nc_sid=01e9e1",
-  "id": "43247504450",
-  "username": "hermes.ti.amo",
-  "full_name": "La_vita_e_bella",
-  "is_verified": "false",
-  "followed_by_viewer": "false",
-  "requested_by_viewer": "false"
-},
-{
-  "type": "comments",
-  "instagramUrl": "https://www.instagram.com/p/Cex7LLrsZjK/",
-  "profileUrl": "https://www.instagram.com/alicia.vargs77",
-  "profilePic": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/274364926_730920821205588_7583235842240429740_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=k_Ul2wC12a0AX-U3-sQ&edm=AI-cjbYBAAAA&ccb=7-5&oh=00_AT9ZDexZmNUj8sGB-9lEXfl72W823MmZZaKDazfeTUH4yA&oe=62B1BF19&_nc_sid=ba0005",
-  "created_at": "6/14/2022, 9:23:00 AM",
-  "id": "17941587577983262",
-  "text": "Promote it on @travel.monde_ 💛",
-  "username": "alicia.vargs77"
+  "type": "following",
+  "instagramUrl": "https://www.instagram.com/apifytech/",
+  "profileUrl": "https://www.instagram.com/jancurn",
+  "profilePic": "https://scontent-lhr8-2.cdninstagram.com/v/t51.2885-19/11848957_430644727127321_871406909_a.jpg?_nc_ht=scontent-lhr8-2.cdninstagram.com&_nc_cat=105&_nc_ohc=PVErviPbep8AX-_tWiQ&edm=ALB854YBAAAA&ccb=7-5&oh=00_AT8v3Kumv-iOFoevt0vGhG9r8Y5R9m8afayjmr0KpNjjKQ&oe=62A5EAD1&_nc_sid=04cb80",
+  "pk": 1087746859,
+  "username": "jancurn",
+  "full_name": "Jan Čurn",
+  "is_private": false,
+  "is_verified": false,
+  "follow_friction_type": 0,
+  "growth_friction_info": {
+    "has_active_interventions": false,
+    "interventions": {}
+  },
+  "account_badges": [],
+  "has_anonymous_profile_picture": false,
+  "has_highlight_reels": false,
+  "latest_reel_media": 0,
+  "is_favorite": false
 }
 ```
 
