@@ -16,7 +16,7 @@
           "transformation": {
             "fields": [
               "type",
-              "instagramUrl",
+              "profileUrl",
               "full_name",
               "is_private"
             ]
@@ -25,7 +25,7 @@
             "component": "table",
             "columns": [
               { "label": "Reaction", "format": "text", "field": "type" },
-              { "label": "Instagram Url", "format": "text", "field": "instagramUrl" },
+              { "label": "Profile Url", "format": "text", "field": "profileUrl" },
               { "label": "Name", "format": "text", "field": "full_name" },
               { "label": "Private", "format": "text", "field": "is_private" }
             ]
