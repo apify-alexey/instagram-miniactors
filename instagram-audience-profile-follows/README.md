@@ -36,9 +36,6 @@ If you want more ideas, check out our [industries pages](https://apify.com/indus
 ### Using proxies
 Datacenter proxies recommended.
 
-### Custom proxies
-You can also use proxies from other providers in the custom proxies fields (`proxyUrls` in the JSON settings).
-
 ## Input parameters
 The input of this scraper should be JSON containing the list of profiles that should be scraped. Required fields are:
 
