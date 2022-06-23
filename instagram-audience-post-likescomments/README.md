@@ -1,5 +1,6 @@
 ## Features
 Our free Instagram Likes and Comments Post Scraper allows you to scrape comments and likes from one or more Instagram post URLs, even if [likes are HIDDEN by author](https://help.instagram.com/113355287252104/).
+Please note that replies and comments handled in a same way, no nesting for replies to comments, all results saved as plain table data to keep it CSV friendly.
 
 **Bulk (up to 10x thousands) results, you should be able to get around 7.000 - 10.000 items per hour**
 
