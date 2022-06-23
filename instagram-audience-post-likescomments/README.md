@@ -34,32 +34,11 @@ Let us know if you need a [custom Instagram scraping solution](https://apify.com
 
 If you want more ideas, check out our [industries pages](https://apify.com/industries) for ways web scraping is already being used in a wide range of companies.
 
-## Cost of usage
-There are two main factors to take into account if you want to run one of our Instagram scrapers on the Apify platform:
-- [Compute units](https://apify.com/pricing/actors) - used for running the scraper
-- [Residential proxy traffic](https://apify.com/pricing/proxy) - needed to access Instagram without login
-
 ### Using proxies
-Instagram now aggressively blocks scrapers and redirects them to a login page. The only reliable solution to this problem is to use residential proxies. Datacenter proxies only work in rare cases.
-
-### Residential proxies
-Instagram scraper is free to use, although you will need to use [residential proxies](https://apify.com/proxy?pricing=residential-ip#pricing) on [Apify Proxy](https://apify.com/proxy) if you run it on the Apify platform. This is because Instagram changed the rules in 2021 and now you always need to use a residential proxy for scraping. Luckily, every new Apify account includes a small free trial of residential proxies, so you should be able to test any of our Instagram scrapers.
+Datacenter proxies recommended.
 
 ### Custom proxies
 You can also use proxies from other providers in the custom proxies fields (`proxyUrls` in the JSON settings).
-
-### Cost of usage breakdown
-Scraping 1,000 Instagram comments will cost you just $3.25 platform credits from your [Apify subscription plan](https://apify.com/pricing).
-
-Scraping **1,000 results** requires about:
-- **0.5 compute unit**
-- **0.24 GB of proxy traffic**
-
-### Example pricing
-Based on Apify's pricing at the time of writing, scraping **1,000 results** would cost 0.5 CU * $0.25 + 0.24 GB * 12.5 GB, which is a total of **$1.55**. The Apify Personal plan ($49) would allow you to scrape about 9,000 Instagram results monthly.
-
-### Apify residential proxies
-The Apify platform [provides residential proxies](https://apify.com/proxy?pricing=residential-ip#pricing) if you have a paid subscription. These proxies are only available to be run within actors on the Apify platform, not externally. If you are interested in using residential proxies for this scraper, contact `support@apify.com` via email or in-app chat to get the proxies enabled.
 
 ## Input parameters
 The input of this scraper should be JSON containing the list of posts that should be scraped. Required fields are:
