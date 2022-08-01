@@ -35,4 +35,4 @@ Instagram Profile Scraper 旨在快速且易于使用，因此不需太多参数
 如果您需要[客制化 Instagram 抓取解决方案](https://apify.com/custom-solutions)，请告诉我们。
 
 ## 计算使用成本
-从您的 [Apify 订阅计划](https://apify.com/pricing) 中抓取 1,000 个 Instagram 用户信息只需花费 5.50 美元的平台积分。
+从您的 [Apify 订阅计划](mailto:https://apify.com/pricing) 中抓取 1,000 个 Instagram 用户信息只需花费 5.50 美元的平台积分。
