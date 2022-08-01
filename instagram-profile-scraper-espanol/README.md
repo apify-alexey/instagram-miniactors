@@ -71,4 +71,4 @@ Según los precios de Apify en el momento de escribir este artículo, raspar 100
 
 
 ## Apify proxies residenciales
-La plataforma Apify proporciona proxies residenciales si tienes una suscripción paga. Estos proxies solo están disponibles para ejecutarse dentro de los actores en la plataforma Apify, no externamente. Si te interesa usar proxies residenciales para este raspador, comunícate con [support@apify.com](support@apify.com) por correo electrónico o chat en la aplicación para habilitar los proxies.
+La plataforma Apify proporciona proxies residenciales si tienes una suscripción paga. Estos proxies solo están disponibles para ejecutarse dentro de los actores en la plataforma Apify, no externamente. Si te interesa usar proxies residenciales para este raspador, comunícate con [support@apify.com](mailto:support@apify.com) por correo electrónico o chat en la aplicación para habilitar los proxies.
